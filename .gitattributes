@@ -1,37 +1,13 @@
-# Maven / Gradle build files
-target/
-build/
+* text=auto
 
-# Logs
-*.log
+*.java text eol=lf
+*.js text eol=lf
+*.vue text eol=lf
+*.html text eol=lf
+*.css text eol=lf
 
-# Compiled class files
-*.class
-
-# Package files
-*.jar
-*.war
-
-# Spring Boot specific
-*.jar.original
-
-# IDE files
-.idea/
-*.iml
-.vscode/
-.settings/
-.project
-.classpath
-
-# OS files
-.DS_Store
-Thumbs.db
-
-# Temporary files
-*.tmp
-*.swp
-
-# Eclipse / STS
-.metadata/
-bin/
-tmp/
+*.png binary
+*.jpg binary
+*.gif binary
+*.jar binary
+*.zip binary
