@@ -1,2 +1,37 @@
-/mvnw text eol=lf
-*.cmd text eol=crlf
+# Maven / Gradle build files
+target/
+build/
+
+# Logs
+*.log
+
+# Compiled class files
+*.class
+
+# Package files
+*.jar
+*.war
+
+# Spring Boot specific
+*.jar.original
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.swp
+
+# Eclipse / STS
+.metadata/
+bin/
+tmp/
